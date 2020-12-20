@@ -1,0 +1,21 @@
+
+(base) C:\Users\Baris>conda activate object2
+
+(object2) C:\Users\Baris>cd C:\models - YT 1
+
+(object2) C:\models - YT 1>cd..
+
+(object2) C:\>cd "models - YT 1"
+
+(object2) C:\models - YT 1>cd resarch
+Sistem belirtilen yolu bulamıyor.
+
+(object2) C:\models - YT 1>cd research
+
+(object2) C:\models - YT 1\research>set PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
+
+(object2) C:\models - YT 1\research>cd object_detection
+
+(object2) C:\models - YT 1\research\object_detection> python train.py --train_dir=training/ --pipeline_config_path=training/ssd_mobilenet_v1_pets.config --logtostderr
+(object2) C:\models - YT 1\research\object_detection>jupyter notebook
+-jupyter notebook da object_detection_tutorial.ipynb çalıştırara kodu çalıştırabilirsiniz.
